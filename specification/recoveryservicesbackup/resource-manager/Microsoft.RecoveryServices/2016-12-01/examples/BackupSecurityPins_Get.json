@@ -1,0 +1,17 @@
+{
+    "parameters": {
+        "subscriptionId": "2291dd79-640c-4a6b-9944-525f1f775f01",
+        "resourceGroupName": "SwaggerTestRg",
+        "vaultName": "SwaggerTest",
+        "api-version": "2016-12-01"
+    },
+    "responses": {
+        "200": {
+            "body": {
+                "token": "200432",
+                "expiryTimeInUtcTicks": 636495150137443121,
+                "securityPIN": "200432"
+            }
+        }
+    }
+}

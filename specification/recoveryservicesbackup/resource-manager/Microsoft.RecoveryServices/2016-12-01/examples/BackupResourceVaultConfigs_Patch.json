@@ -1,0 +1,25 @@
+{
+    "parameters": {
+        "subscriptionId": "2291dd79-640c-4a6b-9944-525f1f775f01",
+        "resourceGroupName": "SwaggerTestRg",
+        "vaultName": "SwaggerTest",
+        "api-version": "2017-07-01",
+        "parameters": {
+            "properties": {
+                "enhancedSecurityState": "Enabled"
+            }
+        }
+    },
+    "responses": {
+        "200": {
+            "body": {
+                "id": "/subscriptions/2291dd79-640c-4a6b-9944-525f1f775f01/resourceGroups/SwaggerTestRg/providers/Microsoft.RecoveryServices/vaults/SwaggerTest/backupconfig/vaultconfig",
+                "name": "vaultconfig",
+                "type": "Microsoft.RecoveryServices/vaults/backupconfig",
+                "properties": {
+                    "enhancedSecurityState": "Enabled"
+                }
+            }
+        }
+    }
+}
